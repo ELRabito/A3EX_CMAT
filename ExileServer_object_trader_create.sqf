@@ -24,7 +24,6 @@ _trader disableAI "CHECKVISIBLE";
 _trader allowDamage false;
 _trader removeAllEventHandlers "HandleDamage";
 _trader removeAllMPEventHandlers "MPHit";
-_trader addEventHandler ["Killed", {deleteVehicle (_this select 0)}];
 _trader setFace _traderFace;
 _trader setPosATL _position;
 _trader setDir _direction;
