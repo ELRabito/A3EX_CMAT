@@ -1,4 +1,4 @@
-private["_traderClassName", "_traderType", "_traderFace", "_animations", "_position", "_direction", "_attachToObject", "_trader", "_animationCount"];
+private["_traderClassName", "_traderType", "_traderFace", "_animations", "_position", "_direction", "_trader"];
 _traderClassName = _this select 0;
 _traderType = [_this, 1, _traderClassName] call BIS_fnc_param; 
 _traderFace = _this select 2;
@@ -19,8 +19,8 @@ _trader disableAI "TARGET";
 _trader disableAI "CHECKVISIBLE";
 _trader allowDamage false;
 _trader removeAllEventHandlers "HandleDamage";
+_trader removeAllMPEventHandlers "MPHit";
 _trader setFace _traderFace;
-_trader addEventHandler ["Killed", {(_this select 0) getVariable ["ExileTraderParams",[]] call ExileClient_object_trader_create; deleteVehicle (_this select 0)}];
 _trader setPosATL _position;
 _trader setDir _direction;
 _trader switchMove (_animations select 0);
