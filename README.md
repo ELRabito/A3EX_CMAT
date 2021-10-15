@@ -1,4 +1,4 @@
-# A3EX_CMAT - Arma 3 Exile Serverside Custom Mapping and Traders - v0.10
+# A3EX_CMAT - Arma 3 Exile Serverside Custom Mapping and Traders - v0.11
 # 2020 - El Rabito
 # Thanks @ DB for the initial ExileServer_object_trader_create.sqf
 
