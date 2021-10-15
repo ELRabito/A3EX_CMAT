@@ -1,4 +1,8 @@
+/*
+	ExileServer_object_trader_create
+*/
 private["_traderClassName", "_traderType", "_traderFace", "_animations", "_position", "_direction", "_trader"];
+
 _traderClassName = _this select 0;
 _traderType = [_this, 1, _traderClassName] call BIS_fnc_param; 
 _traderFace = _this select 2;
@@ -20,6 +24,7 @@ _trader disableAI "CHECKVISIBLE";
 _trader allowDamage false;
 _trader removeAllEventHandlers "HandleDamage";
 _trader removeAllMPEventHandlers "MPHit";
+_trader addEventHandler ["Killed", {deleteVehicle (_this select 0)}];
 _trader setFace _traderFace;
 _trader setPosATL _position;
 _trader setDir _direction;
