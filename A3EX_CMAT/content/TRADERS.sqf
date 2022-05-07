@@ -13,7 +13,7 @@
 *
 * - Getting Trader Loadout
 *	Easiest way to get the loadouts, place unit in Arma 3 Editor, gear it, place another unit, press play with this unit and paste the line below into debug console.
-*	Then you can just copy the whole output and paste it at the end of every ExileServer_object_trader_create call.
+*	Then you can just copy the whole output and paste it into each trader array.
 *	getUnitLoadout cursorObject;
 */
 
