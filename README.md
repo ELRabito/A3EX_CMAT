@@ -18,7 +18,7 @@
 3. Configure your map content and traders in A3EX_CMAT\content\
 - Remember to add them in fn_load_mapContent.sqf like the examples.
 - TRADER.sqf is the trader configuration with additional information !
-- Remember to remove your old trader NPC's from missionfiles initPlayerLocal.sqf!
+- Remember to remove your old trader NPC's from missionfiles initPlayerLocal.sqf and mapping from initserver.sqf!
 
 4. Add this below to missionfiles initServer.sqf (This is better for spawning the mapping since it's initialized earlier.)
 
