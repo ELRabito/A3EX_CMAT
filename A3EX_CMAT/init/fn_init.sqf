@@ -7,6 +7,7 @@
 * 	TRADERS
 * 	Caution: Don't change/remove the line below! This is needed to load the Traders serverside!
 */
+[] execVM "A3EX_CMAT\content\fn_load_mapContent.sqf";
 [] execVM "A3EX_CMAT\content\TRADERS.sqf";
 
 
