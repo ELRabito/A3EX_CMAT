@@ -20,7 +20,7 @@
 - TRADER.sqf is the trader configuration with additional information !
 - Remember to remove your old trader NPC's from missionfiles initPlayerLocal.sqf and mapping from initserver.sqf!
 
-4. Put the A3EX_CMAT.pbo into @ExileServer\addons\
+4. Put the re-packed A3EX_CMAT.pbo into @ExileServer\addons\
 
 5. Done
 
