@@ -1,5 +1,5 @@
 /**
-* A3EX_CMAT - Arma 3 Exile Serverside Custom Mapping and Traders - v0.20
+* A3EX_CMAT - Arma 3 Exile Serverside Custom Mapping and Traders - v0.12
 * 2020 - El Rabito
 *
 * !!! Use "Log position to clipboard" and get the rotation via attributes via Arma 3 Editor + Exile Eden plugin !!
