@@ -203,3 +203,5 @@ _trader_specOps=
 	_trader_wastedump,
 	_trader_specOps
 ];
+//
+diag_log "#### A3EX_CMAT: Trader AI spawned!"; 
