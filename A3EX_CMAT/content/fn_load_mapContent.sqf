@@ -11,3 +11,5 @@
 
 [] execVM "A3EX_CMAT\content\example1.sqf";
 [] execVM "A3EX_CMAT\content\example2.sqf";
+
+diag_log "#### A3EX_CMAT: Mapping spawned!"; 
