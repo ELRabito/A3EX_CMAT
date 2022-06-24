@@ -3,7 +3,7 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		author[]= {"El Rabito"};
-		version = 'v0.10';
+		version = 'v0.12';
 		requiredVersion = 0.1;
 		requiredAddons[] = {"exile_client","exile_assets","exile_server_config"};
 	};
