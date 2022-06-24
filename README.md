@@ -20,13 +20,9 @@
 - TRADER.sqf is the trader configuration with additional information !
 - Remember to remove your old trader NPC's from missionfiles initPlayerLocal.sqf and mapping from initserver.sqf!
 
-4. Add this below to missionfiles initServer.sqf (This is better for spawning the mapping since it's initialized earlier.)
+4. Put the A3EX_CMAT.pbo into @ExileServer\addons\
 
-[] execVM "A3EX_CMAT\content\fn_load_mapContent.sqf";
-
-5. Put the A3EX_CMAT.pbo into @ExileServer\addons\
-
-6. Done
+5. Done
 
 
 # License Info: If you server is named KFB (Kentucky Fried Bambi) you have no permission to use this. Any violation will result in a DMCA.
