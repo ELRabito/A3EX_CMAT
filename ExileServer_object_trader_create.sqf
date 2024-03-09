@@ -9,6 +9,7 @@ _trader setPosATL _position;
 _trader setDir _direction;
 _trader switchMove (_animations select 0);
 _trader setVariable ["BIS_fnc_animalBehaviour_disable", true];
+_trader setVariable ["BIS_enableRandomization", false];
 _trader setVariable ["ExileTraderType", _traderType, true];
 _trader disableAI "all";
 _trader removeAllEventHandlers "HandleDamage";
